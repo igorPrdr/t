@@ -42,7 +42,7 @@ describe("Subscription", () => {
         let lastMessage: Type.Email;
 
         /* Gives some time to message processing.*/
-        await browser.sleep(1000);
+        await browser.sleep(2000);
         await user.refreshEmailInbox();
 
         lastMessage = user.getLastEmailInboxMessage();
