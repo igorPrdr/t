@@ -1,0 +1,25 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "jsRules": {},
+  "rules": {
+    "array-type": [true, "array"],
+    "trailing-comma": false,
+    "interface-name": false,
+    "no-implicit-any": false,
+    "no-trailing-whitespace": false,
+    "ordered-imports": false,
+    "max-classes-per-file": false,
+    "member-access": false,
+    "no-console": false,
+    "no-namespace": false,
+    "no-unused-expression": false,
+    "object-literal-sort-keys": false,
+    "object-literal-key-quotes": [true, "consistent"],
+    "typedef-whitespace": false,
+    "variable-name": [true, "allow-leading-underscore", "allow-pascal-case"]
+  },
+  "rulesDirectory": []
+}
